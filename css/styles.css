@@ -4,5 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+}
+header {
+    background-image:url(img/)
 }

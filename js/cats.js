@@ -37,5 +37,5 @@ var CATS = [
         "description": "Erica Trotter's cat!",
         "name": "Ranger. For real.",
         "color": "Tabby - Orange",
-        "favoriteSong": ""
+        "favoriteSong": "'Eye of the Tiger' by Survivor"
     }]
