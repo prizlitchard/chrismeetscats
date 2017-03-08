@@ -5,7 +5,13 @@ body {
     background-attachment: fixed;
     font-family: "Nunito Sans", sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 header {
-    background-image:url(img/)
+    background-image:url(../photos/header.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 150px;
 }
