@@ -24,10 +24,13 @@
   
 }
 .test-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url(../photos/header.jpg) center / cover;
+  color: white;
+  text-shadow: 1px 1px black;
+  height: 200px;
+  background:url(../photos/searchimage.jpg) center / cover;
 }
+
+
 .test-card-wide > .mdl-card__menu {
   color: #fff;
 }
