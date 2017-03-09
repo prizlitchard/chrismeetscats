@@ -9,30 +9,71 @@
     <meta name="keywords" content ="Cats,Travel,Life Choices">
     <meta name="author" content="Liz Pritchard">
 
+    <!--MDL-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Chris Meets Cats!</h1>
-            
-        </div>
-    </header>
-
-    <main>
-        <section class="tagline">
-            <div class="container">
-                <h2><i>A completely necessary website.</i></h2>
-                <p>Welcome to a totally serious catalog of Chris Moschini's adventures meeting new cats!</p>
+   <div class="page-layout-transparent mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout__title"><h1>Chris Meets Cats</h1></span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="#"><h5>The Data</h5></a>
+                    <a class="mdl-navigation__link" href="#"><h5>About</h5></a>
+                    <a class="mdl-navigation__link" href="#"><h5>FAQ</h5></a>
+                </nav>
             </div>
-        </section>
-        <section class="featured">
-            <div class="container">
-                <h2>Featured Cat</h2>
-                <img src="https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/14033570_1482259828466149_1653801283_n.jpg" alt="Liz's cat Toothless">
-                <p>Cat ipsum dolor sit amet, jaguar maine coon. Ragdoll cougar malkin. Cheetah havana brown, balinese and persian lynx but savannah, panther. Panther kitty but tomcat. Siamese manx yet russian blue scottish fold. British shorthair cornish rex havana brown, or american shorthair. American shorthair manx, so tom but british shorthair maine coon himalayan and tiger. Siamese. Tomcat lynx. Savannah savannah so cougar so savannah bengal but bobcat yet bengal. Tiger american bobtail ocicat or manx puma.</p>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout__title">Chris Meets Cats</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#">The Data</a>
+                <a class="mdl-navigation__link" href="#">About</a>
+                <a class="mdl-navigation__link" href="#">FAQ</a>
+            </nav>
+        </div>
+    <main class="mdl-layout__content">
+        <!--Search the Data Card-->
+        <div class="test-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">A completely necessary website.</h2>
+            </div>
+            <div class="mdl-card__supporting-text">Cat ipsum dolor sit amet, jaguar maine coon. Ragdoll cougar malkin. Cheetah havana brown, balinese and persian lynx but savannah, panther.</div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Search the <b><i>CAT</i></b>alog!</a>
+            </div>
+         </div>
+
+         <!--Featured Cat Card-->
+        <div class="test-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Featured Feline</h2>
+            </div>
+            <div class="mdl-card__supporting-text">Cat ipsum dolor sit amet, jaguar maine coon. Ragdoll cougar malkin. Cheetah havana brown, balinese and persian lynx but savannah, panther.</div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Forage for Former Featured Felines</a>
+            </div>
+         </div>
+
+         <!--Who is Chris? Card-->
+         <div class="test-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Who is Chris?</h2>
+            </div>
+            <div class="mdl-card__supporting-text">Cat ipsum dolor sit amet, jaguar maine coon. Ragdoll cougar malkin. Cheetah havana brown, balinese and persian lynx but savannah, panther.</div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Attempt to Contact Chris</a>
+            </div>
+         </div>
+
     </main>
 </body>
 </html>

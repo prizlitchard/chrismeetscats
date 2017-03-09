@@ -1,4 +1,55 @@
-* {
+
+.page-layout-transparent {
+    background: lightslategrey;
+}
+
+.page-layout-transparent .mdl-layout__header {
+    background: url(../photos/header.jpg) center / cover;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding-top: 300px;
+    padding-bottom: 20px;
+}
+
+.page-layout-transparent .mdl-layout__drawer-button {
+    text-shadow: 1px 1px darkslategrey;
+    color: white; 
+}
+
+.test-card-wide.mdl-card {
+  width: 512px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.test-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url(../photos/header.jpg) center / cover;
+}
+.test-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+      
+.mdl-layout__content {
+    margin-top: 2em;
+}
+
+
+/*body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+    background:linear-gradient(to left, lightsteelblue, lightseagreen);
+    text-shadow: 1px 1px darkslategrey;
+    padding-bottom: 2.5em;
+    padding-top: 3em;
+}
+
+
+/* {
     box-sizing: border-box;
 }
 
