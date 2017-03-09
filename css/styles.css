@@ -1,39 +1,77 @@
-
-.page-layout-transparent {
+body {
     background: lightslategrey;
 }
 
-.page-layout-transparent .mdl-layout__header {
-    background: url(../photos/header.jpg) center / cover;
+.mdl-layout__header {
+    background: url(../photos/header.jpg) bottom / cover;
     color: white;
     text-shadow: 1px 1px black;
     padding-top: 300px;
     padding-bottom: 20px;
 }
 
-.page-layout-transparent .mdl-layout__drawer-button {
+.mdl-layout__drawer-button {
     text-shadow: 1px 1px darkslategrey;
     color: white; 
 }
 
-.test-card-wide.mdl-card {
+.data-card-wide.mdl-card {
   width: 512px;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
   
 }
-.test-card-wide > .mdl-card__title {
+.data-card-wide > .mdl-card__title {
   color: white;
   text-shadow: 1px 1px black;
-  height: 200px;
+  height: 220px;
   background:url(../photos/searchimage.jpg) center / cover;
 }
 
 
-.test-card-wide > .mdl-card__menu {
-  color: #fff;
+.data-card-wide > .mdl-card__menu {
+  color: white;
 }
+
+.featured-card-wide.mdl-card {
+  width: 512px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.featured-card-wide > .mdl-card__title {
+  color: white;
+  text-shadow: 1px 1px black;
+  height: 220px;
+  background:url(../photos/toothless.jpg) top / cover;
+}
+
+
+.featured-card-wide > .mdl-card__menu {
+  color: white;
+}
+
+.chris-card-wide.mdl-card {
+  width: 512px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.chris-card-wide > .mdl-card__title {
+  color: white;
+  text-shadow: 1px 1px black;
+  height: 220px;
+  background:url(../photos/chris.jpg) top / cover;
+}
+
+
+.chris-card-wide > .mdl-card__menu {
+  color: white;
+}
+            
       
 .mdl-layout__content {
     margin-top: 2em;
