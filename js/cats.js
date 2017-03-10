@@ -21,7 +21,7 @@ var CATS = [
         "description": "Midtown mansions cat",
         "name": "Something pretentious. Floyd.",
         "color": "Grey and White",
-        "favoriteSong": "'Wait' by M83"
+        "favoriteSong": "'Rhiannon' by Fleetwood Mac"
     },
     {
         "location": "Savannah, GA",
