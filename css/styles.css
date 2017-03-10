@@ -15,10 +15,8 @@ body {
     color: white; 
 }
 
-.data-card-wide.mdl-card {
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
+.mdl-cell .mdl-card {
+  width: 100%;
   
 }
 .data-card-wide > .mdl-card__title {
@@ -28,17 +26,6 @@ body {
   background:url(../photos/searchimage.jpg) center / cover;
 }
 
-
-.data-card-wide > .mdl-card__menu {
-  color: white;
-}
-
-.featured-card-wide.mdl-card {
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  
-}
 .featured-card-wide > .mdl-card__title {
   color: white;
   text-shadow: 1px 1px black;
@@ -46,29 +33,12 @@ body {
   background:url(../photos/toothless.jpg) top / cover;
 }
 
-
-.featured-card-wide > .mdl-card__menu {
-  color: white;
-}
-
-.chris-card-wide.mdl-card {
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  
-}
 .chris-card-wide > .mdl-card__title {
   color: white;
   text-shadow: 1px 1px black;
   height: 220px;
   background:url(../photos/chris.jpg) top / cover;
-}
-
-
-.chris-card-wide > .mdl-card__menu {
-  color: white;
-}
-            
+}         
       
 .mdl-layout__content {
     margin-top: 2em;
