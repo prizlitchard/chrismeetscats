@@ -65,3 +65,9 @@ body {
     margin-top: 2em;
 }
 
+.portland1-image-card.mdl-card {
+  width: 256px;
+  height: 256px;
+  color: white; 
+  background: url('../photos/portland092015.jpg') center/ cover;
+}
