@@ -65,9 +65,23 @@ body {
     margin-top: 2em;
 }
 
-.portland1-image-card.mdl-card {
+.portland1-card-image.mdl-card {
   width: 256px;
   height: 256px;
   color: white; 
   background: url('../photos/portland092015.jpg') center/ cover;
+}
+
+.savannah1a-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  color: white; 
+  background: url('../photos/savannah032016a1.jpg') center/ cover;
+}
+
+.savannah1b-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  color: white; 
+  background: url('../photos/savannah032016a2.jpg') center/ cover;
 }
