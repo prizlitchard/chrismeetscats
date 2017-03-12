@@ -57,6 +57,10 @@ body {
   background:url(../photos/portland092015.jpg) top / cover; 
 }
 
+.seattleA-card-wide > .mdl-card__title {
+  background:url(../photos/seattle092015.jpg) center / cover; 
+}
+
 .savannahAA-card-wide > .mdl-card__title {
   background:url(../photos/savannah032016aa.jpg) bottom / cover; 
 }
@@ -67,4 +71,12 @@ body {
 
 .savannahB-card-wide > .mdl-card__title {
   background:url(../photos/savannah032016b.jpg) center / cover; 
+}
+
+.seattleBA-card-wide > .mdl-card__title {
+  background:url(../photos/seattle060216ba.jpg) center / cover;
+}
+
+.seattleBB-card-wide > .mdl-card__title {
+  background:url(../photos/seattle062016bb.jpg) center / cover;
 }
