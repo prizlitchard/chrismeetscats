@@ -16,72 +16,55 @@ body {
 }
 
 .mdl-cell .mdl-card {
-  width: 100%;
-  
-}
-.data-card-wide > .mdl-card__title {
-  color: white;
-  text-shadow: 1px 1px black;
-  height: 220px;
-  background:url(../photos/searchimage.jpg) center / cover;
+  width: 100%;  
 }
 
-.featured-card-wide > .mdl-card__title {
-  color: white;
+.mdl-card__title {
+  color: white; 
   text-shadow: 1px 1px black;
   height: 220px;
-  background:url(../photos/toothless.jpg) top / cover;
 }
-
-.chris-card-wide > .mdl-card__title {
-  color: white;
-  text-shadow: 1px 1px black;
-  height: 220px;
-  background:url(../photos/chris.jpg) top / cover;
-}
-
-.ranger-card-wide > .mdl-card__title {
-  color: white;
-  text-shadow: 1px 1px black;
-  height: 220px;
-  background:url(../photos/rangercard.jpg) top / cover;
-}         
-
-.floyd-card-wide > .mdl-card__title {
-  color: white;
-  text-shadow: 1px 1px black;
-  height: 220px;
-  background:url(../photos/searchimage.jpg) top / cover;
-}  
-
-.jacques-card-wide > .mdl-card__title {
-  color: white;
-  text-shadow: 1px 1px black;
-  height: 220px;
-  background:url(../photos/header.jpg) top / cover;
-}  
 
 .mdl-layout__content {
     margin-top: 2em;
 }
 
-.portland1-card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  color: white; 
-  background: url('../photos/portland092015.jpg') center/ cover;
+.data-card-wide > .mdl-card__title {
+    background:url(../photos/searchimage.jpg) center / cover;
 }
 
-.savannah1a-card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  color: white; 
-  background: url('../photos/savannah032016a1.jpg') center/ cover;
+.featured-card-wide > .mdl-card__title {
+    background:url(../photos/toothless.jpg) top / cover;
 }
 
-.savannah1b-card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  color: white; 
-  background: url('../photos/savannah032016a2.jpg') center/ cover;
+.chris-card-wide > .mdl-card__title {
+    background:url(../photos/chris.jpg) top / cover;
+}
+
+.ranger-card-wide > .mdl-card__title {
+    background:url(../photos/rangercard.jpg) top / cover; 
+}
+
+.floyd-card-wide > .mdl-card__title {
+    background:url(../photos/searchimage.jpg) top / cover;
+}
+
+.jacques-card-wide > .mdl-card__title {
+    background:url(../photos/header.jpg) top / cover; 
+}
+
+.portland2015-card-wide > .mdl-card__title {
+  background:url(../photos/portland092015.jpg) top / cover; 
+}
+
+.savannahAA-card-wide > .mdl-card__title {
+  background:url(../photos/savannah032016AA.jpg) bottom / cover; 
+}
+
+.savannahAB-card-wide > .mdl-card__title {
+  background:url(../photos/savannah032016AB.jpg) center / cover; 
+}
+
+.savannahB-card-wide > .mdl-card__title {
+  background:url(../photos/savannah032016B.jpg) center / cover; 
 }
