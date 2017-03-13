@@ -6,8 +6,15 @@ body {
     background: url(../photos/header.jpg) bottom / cover;
     color: white;
     text-shadow: 1px 1px black;
-    padding-top: 220px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .mdl-layout__header{
+    padding-top: 320px;
     padding-bottom: 50px;
+  }
 }
 
 .mdl-layout__drawer-button {
@@ -93,4 +100,11 @@ body {
 
 .tampaAB-card-image.mdl-card {
   background:url(../photos/tampa032017ab.jpg) center / cover;
+}
+
+/*ABOUT*/
+
+.about-card-wide > .mdl-card__title {
+  background: darkslateblue;
+  height: 4em;
 }
