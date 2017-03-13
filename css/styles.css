@@ -105,6 +105,6 @@ body {
 /*ABOUT*/
 
 .about-card-wide > .mdl-card__title {
-  background: darkslateblue;
+  background: darkgrey;
   height: 4em;
 }
