@@ -2,22 +2,6 @@ body {
     background: lightslategrey;
 }
 
-a {
-  color: white;
-}
-
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: hotpink;
-}
-
-a:active {
-  color: lightseagreen;
-}
-
 .mdl-layout__header {
     background: url(../photos/header.jpg) bottom / cover;
     color: white;
