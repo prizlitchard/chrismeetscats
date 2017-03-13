@@ -6,14 +6,21 @@ body {
     background: url(../photos/header.jpg) bottom / cover;
     color: white;
     text-shadow: 1px 1px black;
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 30px;
 }
 
 @media (min-width: 1200px) {
   .mdl-layout__header{
-    padding-top: 320px;
+    padding-top: 300px;
     padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mdl-layout__header{
+    padding-top: 185px;
+    padding-bottom: 40px;
   }
 }
 
@@ -21,6 +28,7 @@ body {
     text-shadow: 1px 1px darkslategrey;
     color: white; 
 }
+
 
 .mdl-cell .mdl-card {
   width: 100%;  
@@ -32,8 +40,17 @@ body {
   height: 220px;
 }
 
+.data-card-wide > .mdl-card__actions, 
+.featured-card-wide > .mdl-card__actions,
+.chris-card-wide > .mdl-card__actions {
+  background: white;
+  margin-bottom: 1em;
+}
+
+
 .mdl-layout__content {
     margin-top: 2em;
+    padding: auto;
 }
 
 .data-card-wide > .mdl-card__title {
@@ -62,6 +79,10 @@ body {
 }
 
 /*PHOTO GALLERY*/
+
+.photo-card.mdl-card {
+  max-width: 400px;
+}
 
 .mdl-card__actions {
   height: 52px;
