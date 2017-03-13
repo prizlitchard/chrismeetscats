@@ -3,7 +3,7 @@ var CATS = [
         "location": "Seattle, WA",
         "date": "September, 2015",
         "description": "Airbnb cat",
-        "name": "Unknown, but he seemed like a Ralph",
+        "name": "Minerva",
         "color": "Tabby - Grey",
         "favoriteSong": "'The Final Countdown' by Europe"
     },
@@ -19,7 +19,7 @@ var CATS = [
         "location": "Savannah, GA",
         "date": "March, 2016",
         "description": "Midtown mansions cat",
-        "name": "Something pretentious. Floyd.",
+        "name": "Floyd.",
         "color": "Grey and White",
         "favoriteSong": "'Rhiannon' by Fleetwood Mac"
     },
@@ -27,15 +27,23 @@ var CATS = [
         "location": "Savannah, GA",
         "date": "March, 2016",
         "description": "Community garden cat",
-        "name": "Probably Jacques",
+        "name": "Jacques",
         "color": "Tuxedo",
-        "favoriteSong": "'Wolf' by First Aid Kit"
+        "favoriteSong": "'Heartbeats' by Jose Gonzalez"
     },
     {
         "location": "Seattle, WA",
         "date": "June, 2016",
         "description": "Erica Trotter's cat!",
-        "name": "Ranger. For real.",
+        "name": "Ranger",
         "color": "Tabby - Orange",
         "favoriteSong": "'Eye of the Tiger' by Survivor"
+    },
+    {
+        "location": "Tampa,FL",
+        "date": "March, 2017",
+        "description": "Dancing Goat Farm cat",
+        "name": "Dolores",
+        "color": "Tabby - Grey",
+        "favoriteSong": "'Hey Now' by London Grammar"
     }]
