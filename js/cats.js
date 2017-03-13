@@ -12,7 +12,7 @@ var CATS = [
         "date": "September, 2015",
         "description": "Neighborhood cat in St. Johns",
         "name": "Definitely Not Rupert",
-        "color": "Tuxedo",
+        "color": "Tuxedo - black and white",
         "favoriteSong": "'Bodies' by Drowning Pool"
     },
     {
@@ -28,7 +28,7 @@ var CATS = [
         "date": "March, 2016",
         "description": "Community garden cat",
         "name": "Jacques",
-        "color": "Tuxedo",
+        "color": "Tuxedo - black and white",
         "favoriteSong": "'Heartbeats' by Jose Gonzalez"
     },
     {
