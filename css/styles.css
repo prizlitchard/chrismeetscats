@@ -41,6 +41,7 @@ body {
     background:url(../photos/chris.jpg) top / cover;
 }
 
+/*THE CATS*/
 .ranger-card-wide > .mdl-card__title {
     background:url(../photos/rangercard.jpg) top / cover; 
 }
@@ -53,30 +54,43 @@ body {
     background:url(../photos/header.jpg) top / cover; 
 }
 
-.portland-card-wide > .mdl-card__title {
-  background:url(../photos/portland092015.jpg) top / cover; 
+/*PHOTO GALLERY*/
+
+.mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
-.seattleA-card-wide > .mdl-card__title {
-  background:url(../photos/seattle092015.jpg) center / cover; 
+.portland-card-image.mdl-card {
+  background:url(../photos/portland092015.jpg) center / cover;
 }
 
-.savannahAA-card-wide > .mdl-card__title {
-  background:url(../photos/savannah032016aa.jpg) bottom / cover; 
+.seattleA-card-image.mdl-card {
+  background:url(../photos/seattle092015.jpg) center / cover;
 }
 
-.savannahAB-card-wide > .mdl-card__title {
-  background:url(../photos/savannah032016ab.jpg) center / cover; 
+.savannahAA-card-image.mdl-card {
+  background:url(../photos/savannah032016aa.jpg) bottom / cover;  
 }
 
-.savannahB-card-wide > .mdl-card__title {
-  background:url(../photos/savannah032016b.jpg) center / cover; 
+.savannahAB-card-image.mdl-card {
+  background:url(../photos/savannah032016ab.jpg) top / cover;
 }
 
-.seattleBA-card-wide > .mdl-card__title {
-  background:url(../photos/seattle060216ba.jpg) center / cover;
+.savannahB-card-image.mdl-card {
+  background:url(../photos/savannah032016b.jpg) bottom / cover;
 }
 
-.seattleBB-card-wide > .mdl-card__title {
-  background:url(../photos/seattle062016bb.jpg) center / cover;
+.seattleB-card-image.mdl-card {
+  background:url(../photos/seattle062016b.jpg) center / cover;
+}
+
+.tampaAA-card-image.mdl-card {
+  background:url(../photos/tampa032017aa.jpg) center / cover;
+}
+
+.tampaAB-card-image.mdl-card {
+  background:url(../photos/tampa032017ab.jpg) center / cover;
 }
