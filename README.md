@@ -1,3 +1,2 @@
-# Chris Meets Cats
-## Written and designed by Liz Pritchard. 
-## A totally serious website cataloging Chris Moschini's adventures meeting new cats.
+# Chris Meets Cat
+## What used to be a funny website about a very unfunny man. 
